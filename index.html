@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>웹사이트</title>
+    <meta charset="UTF-8">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div id="image" style="float: right;">
+    <input
+    id="pac-input"
+    class="controls"
+    type="text"
+    placeholder="장소를 입력해주세요"
+  >
+  </div>
+  <div id="map"></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCySx9YGCKUGm2KsGjQG_OHzDZEA4TLQvw&callback=initAutocomplete&libraries=places&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>
